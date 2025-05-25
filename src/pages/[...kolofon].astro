@@ -1,0 +1,31 @@
+---
+import { getCollection, render } from 'astro:content'
+import { defaultLocale } from '@/config'
+import Layout from '@/layouts/Layout.astro'
+
+export async function getStaticPaths() {
+  return [
+    {
+      params: { kolofon: 'kolofon/' },
+      props: { lang: defaultLocale },
+    }
+  ]
+}
+
+const { lang } = Astro.props
+
+// Get kolofon page content
+const allKolofonEntries = await getCollection('kolofon')
+const kolofonEntry = allKolofonEntries.find(entry => entry.data.lang === lang)
+  || allKolofonEntries.find(entry => entry.data.lang === '')
+const { Content } = kolofonEntry ? await render(kolofonEntry) : { Content: null }
+---
+
+<Layout>
+  <!-- Decorative Line -->
+  <div class="uno-decorative-line"></div>
+  <!-- Kolofon Page Content -->
+  <div class="heti">
+    {Content && <Content />}
+  </div>
+</Layout>

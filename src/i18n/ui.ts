@@ -6,6 +6,7 @@ export const ui = {
     posts: 'Posty',
     tags: 'Tagi',
     about: 'O mnie',
+    kolofon: 'Kolofon',
     toc: 'Spis treści',
   },
 }

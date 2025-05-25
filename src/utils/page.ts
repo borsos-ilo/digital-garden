@@ -24,6 +24,10 @@ export function isAboutPage(path: string) {
   const clean = cleanPath(path)
   return clean.startsWith('about') || moreLocales.some(lang => clean.startsWith(`${lang}/about`))
 }
+export function isKolofonPage(path: string) {
+  const clean = cleanPath(path)
+  return clean.startsWith('kolofon') || moreLocales.some(lang => clean.startsWith(`${lang}/kolofon`))
+}
 
 // Returns page context including language and page type information
 export function getPageInfo(path: string) {
@@ -35,6 +39,7 @@ export function getPageInfo(path: string) {
     isPost: isPostPage(path),
     isTag: isTagPage(path),
     isAbout: isAboutPage(path),
+    isKolofon: isKolofonPage(path),
     getLocalizedPath: (targetPath: string) => getLocalizedPath(targetPath, currentLang),
   }
 }

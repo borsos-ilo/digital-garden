@@ -16,7 +16,7 @@ Ten [cyfrowy ogród](https://maggieappleton.com/garden-history) to mój osobisty
 
 ### Praca
 
-Od zawsze interesowało mnie wiele różnych rzeczy, a najlepiej odnajdywałam się na pograniczu odmiennych tematów - jako ktoś, kto ostatecznie spaja je w całość i doprowadza do powstania czegoś nowego.
+Od zawsze interesowało mnie wiele różnych rzeczy, a najlepiej odnajdgywałam się na pograniczu odmiennych tematów - jako ktoś, kto ostatecznie spaja je w całość i doprowadza do powstania czegoś nowego.
 
 Uwielbiam uczyć się nowych rzeczy i obserwować, jak z połączenia pozornie niezwiązanych ze sobą tematów powstają nowe pomysły - oraz jak koncepcje i teorie z jednego obszaru mogą stać się soczewką, przez którą można analizować zupełnie odmienne idee.
 

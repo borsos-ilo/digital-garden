@@ -10,7 +10,7 @@ Do zbudowania strony użyłam [Astro.js](https://https://astro.build/) oraz temp
 
 ## Wygląd
 
-Czcionki wykorzystane na stronie to [League Script](https://fonts.google.com/specimen/League+Script) (tytuł) oraz [Stix](https://fonts.google.com/specimen/Inconsolata) (pozostały tekst). 
+Czcionki wykorzystane na stronie to [League Script](https://fonts.google.com/specimen/League+Script) (tytuł) oraz [Stix](https://www.stixfonts.org/) (pozostały tekst). 
 
 Favikonę mam dzięki [Freepik](https://www.freepik.com/icon/sunflower_7403160#fromView=keyword&page=1&position=5&uuid=4c05220d-78ca-412d-87a9-8b8d1bf7d075).
 

@@ -37,26 +37,16 @@ function getPostPath(post: Post) {
     >
 
       {/* post title */}
-      <h3 class="inline transition-colors hover:c-primary">
+      <h3 class="block transition-colors hover:c-primary">
         <a
-          class="cjk:tracking-0.02em"
-          lg={isHome ? 'font-medium text-4.5' : ''}
+          class="cjk:tracking-0.02em font-bold"
+          lg={isHome ? 'text-4.5' : ''}
           href={getPostPath(post)}
           transition:name={`post-${post.data.abbrlink || post.id}-${lang}`}
           data-disable-theme-transition
         >
           {post.data.title}
         </a>
-
-          {/* status emoji */}
-          {post.data.status && (
-            <span
-              class="ml-0.5em text-0.9em"
-              title={`Status: ${post.data.status === '🌱' ? 'Seedling' : post.data.status === '🍃' ? 'Growing' : 'Mature'}`}
-            >
-              {post.data.status}
-            </span>
-          )}
 
           {/* pinned icon */}
           {pinned && (
@@ -68,9 +58,9 @@ function getPostPath(post: Post) {
           )}
       </h3>
 
-      {/* mobile post time */}
+      {/* post metadata: date, reading time, and status */}
       <div
-        class="py-0.8 text-3.5 font-time lg:hidden"
+        class="mt-1 text-3.5 font-time"
         transition:name={`time-${post.data.abbrlink || post.id}-${lang}`}
         data-disable-theme-transition
       >
@@ -78,14 +68,16 @@ function getPostPath(post: Post) {
           date={post.data.published}
           minutes={post.remarkPluginFrontmatter.minutes}
         />
-      </div>
-
-      {/* desktop post time */}
-      <div class="hidden text-3.65 font-time lg:(ml-2.5 inline)">
-        <PostDate
-          date={post.data.published}
-          minutes={post.remarkPluginFrontmatter.minutes}
-        />
+        
+        {/* status emoji */}
+        {post.data.status && (
+          <span
+            class="ml-2 text-0.9em"
+            title={`Status: ${post.data.status === '🌱' ? 'Seedling' : post.data.status === '🍃' ? 'Growing' : 'Mature'}`}
+          >
+            {post.data.status}
+          </span>
+        )}
       </div>
 
       {/* desktop post description */}

@@ -1,5 +1,5 @@
-import { glob } from 'astro/loaders'
 import { defineCollection, z } from 'astro:content'
+import { glob } from 'astro/loaders'
 import { allLocales, themeConfig } from '@/config'
 
 const posts = defineCollection({
@@ -12,6 +12,7 @@ const posts = defineCollection({
     description: z.string().optional().default(''),
     updated: z.date().optional(),
     tags: z.array(z.string()).optional().default([]),
+    status: z.enum(['🌱', '🍃', '🌳']).optional().default('🌱'),
     // Advanced
     draft: z.boolean().optional().default(false),
     pin: z.number().int().min(0).max(99).optional().default(0),

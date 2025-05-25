@@ -5,7 +5,7 @@ import Comments from '@/components/Comments/index.astro'
 import PostDate from '@/components/PostDate.astro'
 import BackButton from '@/components/Widgets/BackButton.astro'
 import TOC from '@/components/Widgets/TOC.astro'
-import { allLocales, defaultLocale, moreLocales } from '@/config'
+import { defaultLocale } from '@/config'
 import { getTagPath } from '@/i18n/path'
 import Layout from '@/layouts/Layout.astro'
 import { checkPostSlugDuplication } from '@/utils/content'
@@ -20,33 +20,6 @@ export async function getStaticPaths() {
     throw new Error(`Duplicate post slugs:\n${duplicates.join('\n')}`)
   }
 
-  // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-  // Use a Map to store the relationship between post slugs and their supported languages
-  // Set is used to store the supported languages for each post
-  const slugToLangsMap = posts.reduce((map, post) => {
-    const slug = post.data.abbrlink || post.id
-    const lang = post.data.lang
-
-    if (!map.has(slug)) {
-      map.set(slug, new Set(lang ? [lang] : allLocales))
-    }
- else if (lang) {
-      map.get(slug)?.add(lang)
-    }
-
-    return map
-  }, new Map<string, Set<string>>())
-
-  // Convert Map<slug, Set<langs>> to Record<slug, langs[]> structure
-  // Sort languages according to the order defined in allLocales
-  const slugToLangs = Object.fromEntries(
-    Array.from(slugToLangsMap.entries()).map(([slug, langs]) => [
-      slug,
-      [...langs].sort((a, b) => allLocales.indexOf(a) - allLocales.indexOf(b)),
-    ]),
-  )
-
-  // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
   type PathItem = {
     params: { posts_slug: string }
     props: { post: any, lang: string, supportedLangs: string[] }
@@ -54,42 +27,19 @@ export async function getStaticPaths() {
 
   const paths: PathItem[] = []
 
-  // Default locale
   posts.forEach((post: CollectionEntry<'posts'>) => {
     // Show drafts in dev mode only
     if (import.meta.env.DEV || !post.data.draft) {
       const slug = post.data.abbrlink || post.id
-      const lang = post.data.lang
-
-      if (lang === defaultLocale || lang === '') {
-        paths.push({
-          params: { posts_slug: `posts/${slug}/` },
-          props: {
-            post,
-            lang: defaultLocale,
-            supportedLangs: slugToLangs[slug] || [],
-          },
-        })
-      }
+      paths.push({
+        params: { posts_slug: `posts/${slug}/` },
+        props: {
+          post,
+          lang: defaultLocale,
+          supportedLangs: [defaultLocale],
+        },
+      })
     }
-  })
-
-  // More locales
-  moreLocales.forEach((lang: string) => {
-    posts.forEach((post: CollectionEntry<'posts'>) => {
-      // Process posts with matching language or no language specified
-      if ((import.meta.env.DEV || !post.data.draft) && (post.data.lang === lang || post.data.lang === '')) {
-        const slug = post.data.abbrlink || post.id
-        paths.push({
-          params: { posts_slug: `${lang}/posts/${slug}/` },
-          props: {
-            post,
-            lang,
-            supportedLangs: slugToLangs[slug] || [],
-          },
-        })
-      }
-    })
   })
 
   return paths
@@ -118,6 +68,15 @@ const { Content, headings, remarkPluginFrontmatter } = await render(post)
         >
           {post.data.title}
         </span>
+        {/* status emoji */}
+        {post.data.status && (
+          <span
+            class="ml-0.5em text-0.8em"
+            title={`Status: ${post.data.status === '🌱' ? 'Seedling' : post.data.status === '🍃' ? 'Growing' : 'Mature'}`}
+          >
+            {post.data.status}
+          </span>
+        )}
       </h1>
     </div>
 

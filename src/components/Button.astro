@@ -1,30 +1,13 @@
 ---
-import LanguageSwitcherIcon from '@/assets/icons/language-switcher.svg'
 import ThemeToggleIcon from '@/assets/icons/theme-toggle.svg'
-import { moreLocales, themeConfig } from '@/config'
-import { getNextGlobalLangPath, getNextSupportedLangPath } from '@/i18n/path'
-import { isPostPage, isTagPage } from '@/utils/page'
+import { themeConfig } from '@/config'
 
 interface Props {
-  supportedLangs: string[]
+  supportedLangs?: string[]
 }
 
 const { light: { background: lightMode }, dark: { background: darkMode } } = themeConfig.color
 const reduceMotion = themeConfig.global.reduceMotion
-
-const { supportedLangs } = Astro.props
-const currentPath = Astro.url.pathname
-const isPost = isPostPage(currentPath)
-const isTag = isTagPage(currentPath)
-
-// Check if there are other languages to switch
-const showLanguageSwitcher = moreLocales.length > 0
-// Check if only the supported language switch list is used
-const useSupportedLangs = isPost || (isTag && supportedLangs.length > 0)
-// Choose a language switch list according to the page type
-const nextUrl = useSupportedLangs
-  ? getNextSupportedLangPath(currentPath, supportedLangs) // Switch between supported languages in post/tag page
-  : getNextGlobalLangPath(currentPath) // Switch between all languages in other pages
 ---
 
 <div
@@ -34,20 +17,6 @@ const nextUrl = useSupportedLangs
   'lg:(fixed bottom-47 right-[max(5rem,calc(50vw-35rem))] top-auto w-14rem)',
 ]}
 >
-  <!-- Language Switcher -->
-  {showLanguageSwitcher && (
-    <a
-      href={nextUrl}
-      class="aspect-square w-4 c-secondary active:scale-90 hover:c-primary"
-      aria-label="Switch website language"
-    >
-      <LanguageSwitcherIcon
-        aria-hidden="true"
-        fill="currentColor"
-      />
-    </a>
-  )}
-
   <!-- Theme Toggle -->
   <button
     id="theme-toggle-button"

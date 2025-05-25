@@ -19,4 +19,4 @@ Favikonę mam dzięki [Freepik](https://www.freepik.com/icon/sunflower_7403160#f
 
 Jako, że programistka ze mnie mierna, to w całym procesie wspomagam się [Cline](https://cline.bot/).
 
-Strona jest w całości statyczna - hostowana dzięki [Cloudflare Pages](https://pages.cloudflare.com/)
+Strona jest w całości statyczna - hostowana na [Vercel](https://vercel.com/), w procesie przenoszenia na [Cloudflare Pages](https://pages.cloudflare.com), kiedy tylko przeniosę tam również domenę z [home.pl](https://home.pl)

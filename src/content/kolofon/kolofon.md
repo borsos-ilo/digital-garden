@@ -10,16 +10,13 @@ Do zbudowania strony użyłam [Astro.js](https://https://astro.build/) oraz temp
 
 ## Wygląd
 
-Czcionki wykorzystane na stronie to [League Script](https://fonts.google.com/specimen/League+Script) (tytuł) oraz [Stix](https://fonts.google.com/specimen/Inconsolata) (pozostały tekst). Favikonę mam dzięki [Freepik](https://www.freepik.com/icon/sunflower_7403160#fromView=keyword&page=1&position=5&uuid=4c05220d-78ca-412d-87a9-8b8d1bf7d075).
+Czcionki wykorzystane na stronie to [League Script](https://fonts.google.com/specimen/League+Script) (tytuł) oraz [Stix](https://fonts.google.com/specimen/Inconsolata) (pozostały tekst). 
 
-Ikony, które wykorzystuję do oznaczenia statusu postów to:
+Favikonę mam dzięki [Freepik](https://www.freepik.com/icon/sunflower_7403160#fromView=keyword&page=1&position=5&uuid=4c05220d-78ca-412d-87a9-8b8d1bf7d075).
 
-1. Nasiono: [Planting icons created by Mihimihi - Flaticon](https://www.flaticon.com/free-icons/planting)
-2. Sadzonka: [Bud icons created by cahiwak - Flaticon](https://www.flaticon.com/free-icons/bud)
-3. Owoc: [Strawberry icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/strawberry)
 
 ## Hosting & inne
 
-Jako, że programistka ze mnie mierna, to w całym procesie wspomagam się [Claude](https://claude.ai/).
+Jako, że programistka ze mnie mierna, to w całym procesie wspomagam się [Cline](https://cline.bot/).
 
-Strona jest w całości hostowana w [WP Engine](https://wpengine.com/), na dedykowanej platformie [Headless](https://wpengine.com/headless-wordpress/), którą gorąco polecam - bo buduję ją wraz z zespołem. :)
+Strona jest w całości statyczna - hostowana dzięki [Cloudflare Pages](https://pages.cloudflare.com/)

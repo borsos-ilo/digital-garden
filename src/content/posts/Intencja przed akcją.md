@@ -6,6 +6,7 @@ tags:
     - cyfrowy minimalizm
     - psychologia
 abbrlink: intencja-przed-akcja-postanowienie-na-2025-i-moj-attention-stack
+status: 🌱
 ---
 
 Intencja przed akcją - to moje główne postanowienie na 2025 rok.

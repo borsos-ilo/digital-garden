@@ -12,7 +12,7 @@ export const themeConfig: ThemeConfig = {
     // use i18n title/subtitle/description from src/i18n/ui.ts instead of static ones above
     i18nTitle: true, // true, false
     // author name
-    author: 'borsos_ilo',
+    author: 'Ilona Borsos',
     // site url
     url: 'https://ilonaborsos.com',
     // favicon url

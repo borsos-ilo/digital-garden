@@ -6,7 +6,6 @@ abbrlink: nauka-systematyczna-i-punktowa
 tags:
     - modele mentalne
     - metanauka
-pin: 99
 ---
 
 ## TL;DR
@@ -27,7 +26,7 @@ Moje studiowanie psychologii to głównie proces systematycznej nauki - długotr
 
 Taka gruntowna i rozległa wiedza jest kluczowa, gdy planuję wykorzystywać ją w pracy z ludźmi. Braki w wiedzy mogłyby mieć poważne konsekwencje - zarówno dla mnie, jak i dla osób, z którymi będę pracować.
 
-![Image placeholder: Systematic learning diagram]
+![Nauka systematyczna - schemat](src/content/posts/_images/nauka_systematyczna.png)
 
 #### Przykład
 
@@ -37,7 +36,7 @@ Zdobycie tej wiedzy pomaga mi w uświadomieniu sobie istnienia kolejnych obszar�
 
 Po opanowaniu tego obszaru mogę przejść do bardziej szczegółowych tematów (np. [biologiczne podstawy psychologii](https://lubimyczytac.pl/ksiazka/4968399/biologiczne-podstawy-psychologii), [psychologia poznawcza](https://lubimyczytac.pl/ksiazka/53311/psychologia-poznania), [psychologia rozwoju](https://lubimyczytac.pl/ksiazka/115605/psychologia-rozwoju-czlowieka)) - i cały proces się powtarza. Ostatecznie pozwala mi to zarówno zdobyć szeroką i rozbudowaną wiedzę na temat obszaru, jakim jest psychologia, jak i daje możliwość znalezienia obszaru, w którym chcę się specjalizować.
 
-![Image placeholder: Psychology learning progression diagram]
+![Książki - narzędzia nauki "systematycznej"](src/content/posts/_images/ksiazki.png)
 
 Podobnie rzecz się ma z innymi dziedzinami nauki - medycyną, informatyką, finansami, religioznawstwem, filozofią itd. W cały proces często zaangażowani są mentorzy, nauczyciele, trenerzy, wykładowcy.
 
@@ -51,7 +50,7 @@ Nauka punktowa to dla mnie świadoma intencja lepszego zrozumienia bardzo konkre
 
 Uczeniem się punktowym nazwałabym mój ostatni [proces budowy aplikacji FlyCards](https://ilonaborsos.com/flycards-signup) - w dużym skrócie, irytował mnie mało efektywny proces tworzenia dobrej jakości fiszek z nowymi słówkami po węgiersku (to znaczy - takich, które zawierają obrazki, tłumaczenia i przykładowe zdania), więc postanowiłam napisać aplikację na iOS, która mój bardzo konkretny problem rozwiąże. Jestem jedną z tych osób, które utknęły w [tutorial hell](https://www.reddit.com/r/learnprogramming/comments/qrlx5m/what_exactly_is_tutorial_hell/) - na szczęście mając do dyspozycji ChatGPT czy Claude mogę szybko zdobyć wiedzę, której mi brakuje, aby rozwiązać mój problem. W takim przypadku moja nauka wyglądała mniej-więcej tak:
 
-![Image placeholder: Point learning skills map diagram]
+![Nauka punktowa - schemat](src/content/posts/_images/nauka_punktowa.png)
 
 Rozpoczynając proces realizacji pomysłu nie wiedziałam jeszcze, czego będę musiała się nauczyć - Claude pomógł mi z opracowaniem planu wykonania zadania oraz pomagał mi zrozumieć, jaką wiedzę muszę uzupełnić. Ostateczna "mapa" nowych umiejętności wyglądała mniej-więcej tak, jak na powyższym obrazku.
 

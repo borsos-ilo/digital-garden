@@ -2,6 +2,8 @@
 lang: pl
 ---
 
+<img src="/ilo.jpeg" alt="Ilona Borsos" style="float: right; width: 18.75rem; height: 18.75rem; border-radius: 50%; object-fit: cover; margin: 0 0 1.5rem 1.5rem; max-width: 40vw;" />
+
 ## Ilona Borsos
 
 Product manager
@@ -18,7 +20,7 @@ Od zawsze interesowało mnie wiele różnych rzeczy, a najlepiej odnajdywałam s
 
 Uwielbiam uczyć się nowych rzeczy i obserwować, jak z połączenia pozornie niezwiązanych ze sobą tematów powstają nowe pomysły - oraz jak koncepcje i teorie z jednego obszaru mogą stać się soczewką, przez którą można analizować zupełnie odmienne idee.
 
-Naturalnie przychodzi mi też organizowanie różnych wydarzeń czy projektów - i właśnie w tym kierunku potoczyła się moja dotychczasowa kariera. Na studiach pracowałam w [samorządzie studenckim](https://samorzad.agh.edu.pl/), w pierwszych latach pracy założyłam meet-up [Kraków Tableau User Group](https://community.tableau.com/s/group/0F94T000000gQb0SAE/krakow), a obecnie pracuję jako product manager w [WP Engine](https://wpengine.com/), gdzie zarządzam platformą do hostingu aplikacji node.js służących jako warstwy wizualne stron headless WordPress.
+Naturalnie przychodzi mi też organizowanie różnych wydarzeń czy projektów - i właśnie w tym kierunku potoczyła się moja dotychczasowa kariera. Na studiach pracowałam w [samorządzie studenckim](https://samorzad.agh.edu.pl/), w pierwszych latach pracy założyłam meet-up [Kraków Tableau User Group](https://community.tableau.com/s/group/0F94T000000gQb0SAE/krakow), a obecnie pracuję jako product manager w [WP Engine](https://wpengine.com/).
 
 ### Zainteresowania
 

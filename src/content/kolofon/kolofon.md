@@ -6,7 +6,7 @@ A prościej: lista różnych narzędzi, jakich użyłam do zbudowania tej strony
 
 ## Tech stack
 
-Do zbudowania strony użyłam [Astro.js](https://https://astro.build/) oraz template [Retypeset](https://github.com/radishzzz/astro-theme-retypeset).
+Do zbudowania strony użyłam [Astro.js](https://astro.build/) oraz template [Retypeset](https://github.com/radishzzz/astro-theme-retypeset).
 
 ## Wygląd
 

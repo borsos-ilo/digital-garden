@@ -49,6 +49,58 @@
   --at-apply: 'mb-4 text-pretty cjk:text-justify';
 }
 
+/* Paragraph hover effect for ADHD accessibility - visual focus cue */
+.heti #gsap-post-page-content p:not(li p) {
+  position: relative;
+}
+
+.heti #gsap-post-page-content p:not(li p)::before {
+  content: '';
+  position: absolute;
+  left: -1.5rem;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background-color: transparent;
+  transition: background-color 0.25s ease-out;
+}
+
+.heti #gsap-post-page-content p:not(li p):hover::before {
+  background-color: oklch(0.7 0.15 240 / 0.5);
+}
+
+/* List hover effect - highlight entire list (only outermost lists) */
+.heti #gsap-post-page-content ul:not(li ul),
+.heti #gsap-post-page-content ol:not(li ol) {
+  position: relative;
+}
+
+.heti #gsap-post-page-content ul:not(li ul)::before,
+.heti #gsap-post-page-content ol:not(li ol)::before {
+  content: '';
+  position: absolute;
+  left: -1.5rem;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background-color: transparent;
+  transition: background-color 0.25s ease-out;
+}
+
+.heti #gsap-post-page-content ul:not(li ul):hover::before,
+.heti #gsap-post-page-content ol:not(li ol):hover::before {
+  background-color: oklch(0.7 0.15 240 / 0.5);
+}
+
+/* Respect reduced motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  .heti #gsap-post-page-content p:not(li p)::before,
+  .heti #gsap-post-page-content ul:not(li ul)::before,
+  .heti #gsap-post-page-content ol:not(li ol)::before {
+    transition: none;
+  }
+}
+
 /* Links */
 .heti :where(a:not(.gc-container)) {
   --at-apply: 'font-semibold tracking-0 underline underline-0.075em decoration-secondary/80 underline-offset-0.1em cjk:break-all';

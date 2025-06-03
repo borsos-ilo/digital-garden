@@ -101,10 +101,15 @@
   }
 }
 
-/* Links */
+/* Links - Bold with yellow underline on hover */
 .heti :where(a:not(.gc-container)) {
-  --at-apply: 'font-semibold tracking-0 underline underline-0.075em decoration-secondary/80 underline-offset-0.1em cjk:break-all';
-  --at-apply: 'transition-colors ease-out hover:(c-primary decoration-primary/80) lg:underline-0.1em';
+  --at-apply: 'font-bold tracking-0 underline underline-0.075em decoration-secondary/80 underline-offset-0.1em cjk:break-all';
+  --at-apply: 'lg:underline-0.1em';
+  transition: text-decoration-color 0.3s ease-out;
+}
+
+.heti :where(a:not(.gc-container)):hover {
+  --at-apply: 'decoration-highlight';
 }
 
 /* Images */

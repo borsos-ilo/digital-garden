@@ -66,7 +66,7 @@
 }
 
 .heti #gsap-post-page-content p:not(li p):hover::before {
-  background-color: oklch(0.7 0.15 240 / 0.5);
+  background-color: oklch(0.45 0.12 150 / 0.5);
 }
 
 /* List hover effect - highlight entire list (only outermost lists) */
@@ -89,7 +89,7 @@
 
 .heti #gsap-post-page-content ul:not(li ul):hover::before,
 .heti #gsap-post-page-content ol:not(li ol):hover::before {
-  background-color: oklch(0.7 0.15 240 / 0.5);
+  background-color: oklch(0.45 0.12 150 / 0.5);
 }
 
 /* Respect reduced motion preferences */

@@ -4,6 +4,7 @@ published: 2025-09-10
 lang: pl
 tags:
     - metanauka
+    - ai
 abbrlink: jak-zrozumiec-cos-intuicyjnie
 status: 🌱
 ---

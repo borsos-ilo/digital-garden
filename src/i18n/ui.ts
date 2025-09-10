@@ -1,8 +1,8 @@
 export const ui = {
   'pl': {
     title: 'Ilona Borsos',
-    subtitle: 'Ćwiczenia w myśleniu',
-    description: 'Mój kawałek internetu.',
+    subtitle: 'Mój cyfrowy ogród i ćwiczenia w myśleniu.',
+    description: 'Ilona Borsos - cyfrowy ogród i ćwiczenia w myśleniu.',
     posts: 'Posty',
     tags: 'Tagi',
     about: 'O mnie',

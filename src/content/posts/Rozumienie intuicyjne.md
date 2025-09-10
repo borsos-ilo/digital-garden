@@ -8,27 +8,31 @@ abbrlink: jak-zrozumiec-cos-intuicyjnie
 status: 🌱
 ---
 
-W swojej pracy bardzo często staję przed koniecznością nauczenia się czy zrozumienia nowych rzeczy. Czasami są to rzeczy, które muszę zrozumieć w konkretnym celu - potrzebuję jakiejś wiedzy, żeby wykonać jakieś zadanie i często zdarza się, że ta wiedza nie będzie mi potrzebna ponownie w najbliższej przyszłości. W takich sytuacjach, kiedy liczy się czas, a stawką jest wykonanie zadania, często wystarczy powierzchowne zrozumienie tematu - tyle, ile jest mi potrzebne, żeby wykonać dane zadanie dobrze i nic więcej.
+W swojej pracy bardzo często staję przed koniecznością nauczenia się nowych rzeczy czy zrozumienia nowych terminów. 
 
-Są jednak takie tematy, które chcę opanować po to, aby stać się naprawdę dobra w tym, co robię. W takim przypadku nie optymalizuję strategii nauki pod czas/możliwość wykonania danego zadania, a dążę do zrozumienia czegoś intuicyjnie.
+Czasami są to rzeczy, które muszę zrozumieć w konkretnym celu - potrzebuję jakiejś wiedzy, żeby wykonać jakieś zadanie. Często zdarza się, że ta wiedza nie będzie mi potrzebna ponownie w najbliższej przyszłości. W takich sytuacjach, kiedy liczy się czas, a stawką po prostu "dowiezienie" zadania, często wystarczy mi powierzchowne zrozumienie tematu - uczę się tyle, ile w danym momencie jest mi potrzebne i nic więcej.
 
-Żyjemy w ekscytujących czasach dla ludzi, którzy lubią uczyć się na własną rękę - LLMy potrafią cierpliwie i przez długi czas tłumaczyć nam rzeczy, których nie rozumiemy. W takim kontekście wiedza o tym, _jak_ się uczyć, jest jeszcze istotniejsza niż kiedyś. Chciałabym, aby ten post był pomocny mnie samej jako "blueprint" procesu nauki intuicyjnej - tak, abym mogła wziąć książkę, odpalić ChatGPT i wykonywać takie ruchy, żeby to zrozumienie intuicyjne zbudować. 
+Są jednak takie tematy, które chcę opanować po to, aby stać się _naprawdę dobra_ w tym, co robię. W takim przypadku nie optymalizuję strategii nauki pod czas/możliwość wykonania danego zadania, a dążę do zrozumienia czegoś _intuicyjnie_.
+
+Żyjemy w ekscytujących czasach dla ludzi, którzy lubią uczyć się na własną rękę - LLMy potrafią cierpliwie i przez długi czas tłumaczyć nam wszystko to, z czym jeszcze czujemy się nie pewnie. W takim kontekście wiedza o tym, _jak_ się uczyć staje się jeszcze istotniejsza niż kiedyś. 
+
+Chciałabym, aby ten post był pomocny mnie samej jako "blueprint" procesu nauki intuicyjnej - tak, abym mogła wziąć książkę, odpalić ChatGPT i strategicznie wykonywać takie ruchy, żeby to zrozumienie intuicyjne efektywnie zbudować. 
 
 
 # Czym jest rozumienie intuicyjne?
 Myślę, że „rozumienie” ma różne poziomy:
-* **Płytkie** – umiem powtórzyć definicję czegoś, rozpoznaję coś, czego wcześniej nie rozpoznawałam, trafienie na dany koncept w świecie mnie nie zaskakuje, wiem mniej-więcej jak to działa, ale na "biernym" poziomie. Muszę sobie jednak aktywnie przypominać, jak coś działa czy czym to jest.
-* **Głębokie** – potrafię coś zastosować w praktyce, rozumiem schemat wejścia i wyjścia danego procesu i umiem zrozumieć relację danego konceptu do innych.
-* **Intuicyjne** – *czuję*, jak coś działa, nawet bez wzorów i instrukcji. Widzę różne rodzaje "ekspresji" danej rzeczy w świecie i jestem w stanie zastosować je do innej domeny.
+* **Płytkie** – jest wtedy, kiedy umiem powtórzyć definicję czegoś i rozpoznaję coś, czego wcześniej nie rozpoznawałam. Jest wtedy, kiedy trafienie na dany koncept w świecie mnie nie zaskakuje, wiem mniej-więcej jak to coś działa, ale na "biernym" poziomie (to znaczy, sama nie do końca potrafiłabym odtworzyć definicję danej rzeczy czy wytłumaczyć jej użycie w jakimś kontekście). Kiedy rozumiem coś w płytki sposób, muszę sobie aktywnie przypominać, jak to coś działa.
+* **Głębokie** – jest wtedy, kiedy potrafię coś zastosować w praktyce, rozumiem schemat wejścia i wyjścia danego procesu i umiem zrozumieć relację danego konceptu do innych. Potrafię samodzielnie podać poprawną definicję danego zjawiska i jestem pewna swojej odpowiedzi.
+* **Intuicyjne** – jest wtedy, kiedy *czuję*, jak coś działa, nawet bez wzorów i instrukcji. Jest wtedy, kiedy potrafię zobaczyć różne rodzaje "ekspresji" tej rzeczy w świecie i jestem w stanie samodzielnie zastosować ten koncept czy wzór w wielu różnych domenach.
 
-Chcę zrozumieć proces budowania takiego rozumienia intuicyjnego. Full disclosure - rozważania nad tym tematem prowadziłam razem z ChatemGPT - poniższe kroki to wynik naszych wspólnych dyskusji nad tym, jak krok po kroku takie intuicyjne rozumienie czegoś budować.
+Chcę zrozumieć proces budowania takiego rozumienia intuicyjnego. Full disclosure - rozważania nad tym tematem prowadziłam (_co to znaczy rozumieć coś intuicyjnie?_) razem z ChatemGPT - poniższe kroki to wynik naszych wspólnych dyskusji nad tym, jak krok po kroku takie rozumienie budować.
 
-Żeby operować na konkretnym przykładzie, przejdźmy przez rzeczywistą sytuację z wczoraj, kiedy próbowałam zrozumieć czym jest SDK (software development kit).
+Żeby operować na konkretnym przykładzie, przejdźmy przez rzeczywistą sytuację z wczoraj, kiedy próbowałam zrozumieć, czym jest SDK (software development kit).
 
 # Budowanie rozumienia intuicyjnego
 
 ## 0. **Zapoznanie z definicją**
-Na początku możemy zapoznać się z definicją danego terminu. Według [Wikipedii](https://pl.wikipedia.org/wiki/Software_development_kit) _SDK to zestaw narzędzi dla programistów niezbędny w tworzeniu aplikacji korzystających z funkcjonalności danej biblioteki (np. Java Runtime Environment) pod daną platformę (np. system operacyjny Android), sprzęt (np. moduł GPS) itp._
+Na początku wypada zapoznać się z definicją danego terminu. Według [Wikipedii](https://pl.wikipedia.org/wiki/Software_development_kit) _SDK to zestaw narzędzi dla programistów niezbędny w tworzeniu aplikacji korzystających z funkcjonalności danej biblioteki (np. Java Runtime Environment) pod daną platformę (np. system operacyjny Android), sprzęt (np. moduł GPS) itp._
 
 _Na SDK najczęściej składają się:_
 - _dokumentacja_
@@ -37,17 +41,25 @@ _Na SDK najczęściej składają się:_
 - _skompilowane biblioteki (w przypadku SDK dla jakiejś biblioteki)_
 - _kod źródłowy biblioteki (w zależności od licencji i typu SDK)_
 
-Dobrze byłoby spróbować też sparafrazować tę definicję własnymi słowami. Na ten moment rozumiem, że SDK to pewna warstwa abstrakcji pozwalająca programistom w prostszy i czytelniejszy sposób tworzyć funkcjonalności _osadzone w pewnym kontekście_ (i być może tym SDK różni się od "zwykłej" biblioteki. Biblioteki są raczej agnostyczne jeżeli chodzi o nośnik, SDK wydaje się być połączeniem logiki różnych jego komponentów w abstrakcję osadzoną w jakimś konkretnym kontekście, np. OS czy sprzęt). Fair enough, chociaż nie jestem jeszcze pewna, czy to dobra definicja.
+Myślę, że dobrze byłoby już wtedy  spróbować też sparafrazować tę definicję własnymi słowami. 
+
+Na ten moment rozumiem, że SDK to pewna warstwa abstrakcji pozwalająca programistom w prostszy i czytelniejszy sposób tworzyć funkcjonalności _osadzone w pewnym kontekście_ (i być może tym SDK różni się od "zwykłej" biblioteki. 
+
+Biblioteki są raczej agnostyczne, jeżeli chodzi o nośnik, a SDK wydaje się być połączeniem logiki różnych komponentów w abstrakcję osadzoną w jakimś konkretnym kontekście, np. OS czy sprzęt). 
+
+Fair enough, chociaż nie jestem jeszcze pewna, czy to rzeczywiście dobra definicja.
 
 ## 1. **Zwiększenie ekspozycji - znalezienie konkretnych przykładów**
-Kolejnym krokiem budowania rozumienia intuicyjnego wydaje się być zwiększenie własnej _ekspozycji_ na dany termin. Chodzi o to, aby zobaczyć przykłady ekspresji danego terminu z życia, różne narzędzia czy zjawiska spełniające podaną wcześniej definicję itd. Intuicja rośnie po zobaczeniu *wielu instancji* danej definicji w rzeczywistości.
+Kolejnym krokiem budowania rozumienia intuicyjnego wydaje się być zwiększenie własnej _ekspozycji_ na dany termin. 
 
-Przykładami SDK są m.in.:
+Chodzi o to, aby zobaczyć przykłady ekspresji danego terminu z życia - to znaczy różne narzędzia czy zjawiska spełniające podaną wcześniej definicję itd. Intuicja rośnie po zobaczeniu *wielu instancji* danej definicji w rzeczywistości.
+
+Szukam więc przykładów - a przykładami SDK są m.in.:
 - [Google Cloud SDK](https://cloud.google.com/sdk) - narzędzia i biblioteki do obsługi GCP
 - [Stripe SDK](https://docs.stripe.com/sdks) - narzędzia do dodawania płatności w aplikacji
-- [Twilio SDK](https://www.twilio.com/docs/libraries) - narzędzia do dodawanie SMS-ów, połączeń głosowych, WhatsApp etc. do aplikacji.
+- [Android](https://www.twilio.com/docs/libraries) - narzędzia do dodawanie SMS-ów, połączeń głosowych, WhatsApp etc. do aplikacji.
 
-Celowo staram się wybierać takie przykłady, które są dla mnie już w jakiś sposób znajome (mam np. więcej doświadczenia z GCP niż z Androidem czy Javą). Szukając przykładów wybieram te, które są w tym momencie "najbliżej" mnie, żeby móc je łatwiej dokleić do mentalnego rusztowania, które już mam w głowie.
+Celowo staram się wybierać takie przykłady, które są najbliżej mojego "mentalnego rusztowania" i są dla mnie już w jakiś sposób znajome. Mam np. więcej doświadczenia z GCP niż np. z Androidem, stąd ten konkretny przykład bardziej do mnie przemawia. 
 
 Przeglądając dokumentacje podanych przykładów zauważam, że:
 1. SDK to nie jest jednolity twór - w zasadzie są do _SDKs_ do róznych kontekstów (np. `Google Cloud SDK for Go` vs. `Google Cloud SDK for Python` itd.)
@@ -55,13 +67,18 @@ Przeglądając dokumentacje podanych przykładów zauważam, że:
 3. "Narzędzia" w tym zestawie narzędzi to często API danego serwisu, ale również biblioteki, narzędzia developerskie (np. debugger czy emulator), dokumentacja (!) a czasem też gotowe pluginy czy szablony projektów.
 
 ### 2. **Aktywna zabawa**
-Kolejnym krokiem mogłoby być przeniesienie danego terminu ze sfery teoretyczno-językowej do rzeczywistości. Jak mogę się pobawić tym, co staram się zrozumieć, jak mogę to lepiej wykorzystać? Na tym etapie chciałabym zbudować "pamięć mięśniową" zastosowania rzeczy, którą chciałabym zrozumieć. 
+Kolejnym krokiem mogłoby być przeniesienie danego terminu ze sfery teoretyczno-językowej do rzeczywistości. Skoro znam już definicję i znam konkretne przykłady danego pojęcia mogę spróbować się którymś z tych przykładów pobawić - tak, aby zbudować "pamięć mięśniową" zastosowania tej rzeczy w praktyce, pooglądać tę rzecz z różnych stron i w niej podłubać.
 
-W przypadku SDK jest to dosyć proste - mogę po prostu pobrać jakieś SDK i się nim pobawić. W erze vibe codingu jest to prostsze, niż kiedykolwiek - mogę zbudować prostą aplikację, która będzie miała na celu pomóc mi zrozumieć, jak można wykorzystać SDK.
+W przypadku SDK jest to dosyć proste - a w erze vibe codingu prostsze, niż kiedykolwiek. Pomyślałam, że zbuduję małą aplikację, która będzie miała na celu pomóc mi zrozumieć, jak i do czego można wykorzystać SDK.
 
-* Zmieniaj parametry, pytaj „co jeśli?”.
-* Przykład: w fizyce – upuść różne przedmioty; w programowaniu – zmień dane wejściowe i zobacz, co się dzieje z czasem działania.
-* Intuicja pojawia się, gdy widzisz *akcja → efekt*.
+Do takich przypadków zazwyczaj wykorzystuję Cline z którymś z modeli Claude. W tym przypadku poprosiłam go po prostu o stworzenie bardzo prostej aplikacji z wykorzystaniem Stripe SDK - tak, abym mogła poczytać kod, zrozumieć składnię tego konkretnego SDK i zapoznać się z funkcjonalnościami, które można zaimplementować z jego użyciem. 
+
+Wynikiem była nieskomplikowana apka złożona z serwera HTTP i serwera API:
+![Fragment kodu mojej aplikacji](src/content/posts/_images/stripesdk_code.png)
+
+A tak prezentowała się w przeglądarce:
+![Aplikacja - "learning lab" Stripe SDK](src/content/posts/_images/stripesdk_playground.png)
+
 
 ---
 

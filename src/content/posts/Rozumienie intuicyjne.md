@@ -67,9 +67,9 @@ Przeglądając dokumentacje podanych przykładów zauważam, że:
 3. "Narzędzia" w tym zestawie narzędzi to często API danego serwisu, ale również biblioteki, narzędzia developerskie (np. debugger czy emulator), dokumentacja (!) a czasem też gotowe pluginy czy szablony projektów.
 
 ### 2. **Aktywna zabawa**
-Kolejnym krokiem mogłoby być przeniesienie danego terminu ze sfery teoretyczno-językowej do rzeczywistości. Skoro znam już definicję i znam konkretne przykłady danego pojęcia mogę spróbować się którymś z tych przykładów pobawić - tak, aby zbudować "pamięć mięśniową" zastosowania tej rzeczy w praktyce, pooglądać tę rzecz z różnych stron i w niej podłubać.
+Żeby dobrze coś zrozumieć, trzeba przenieść to ze sfery teoretyczno-językowej do rzeczywistości. Skoro znam już definicję i konkretne przykłady "materializacji" danego pojęcia w realnym świecie mogę spróbować się którymś z tych przykładów pobawić - tak, aby zbudować "pamięć mięśniową" zastosowania tej rzeczy w praktyce, pooglądać tę rzecz z różnych stron i w niej podłubać.
 
-W przypadku SDK jest to dosyć proste - a w erze vibe codingu prostsze, niż kiedykolwiek. Pomyślałam, że zbuduję małą aplikację, która będzie miała na celu pomóc mi zrozumieć, jak i do czego można wykorzystać SDK.
+W przypadku SDK jest to dosyć proste - a w erze vibe codingu prostsze, niż kiedykolwiek. Pomyślałam, że zbuduję małą aplikację, która będzie miała na celu pomóc mi zrozumieć, jak i do czego można wykorzystać SDK
 
 Do takich przypadków zazwyczaj wykorzystuję Cline z którymś z modeli Claude. W tym przypadku poprosiłam go po prostu o stworzenie bardzo prostej aplikacji z wykorzystaniem Stripe SDK - tak, abym mogła poczytać kod, zrozumieć składnię tego konkretnego SDK i zapoznać się z funkcjonalnościami, które można zaimplementować z jego użyciem. 
 
@@ -79,15 +79,27 @@ Wynikiem była nieskomplikowana apka złożona z serwera HTTP i serwera API:
 A tak prezentowała się w przeglądarce:
 ![Aplikacja - "learning lab" Stripe SDK](src/content/posts/_images/stripesdk_playground.png)
 
+Aplikacja miała też zmockowaną stronę do zakupu produktów:
+!["Zakup" "produktów" w aplikacji](src/content/posts/_images/stripesdk_products.png)
 
----
+I mogłam zobaczyć, że rzeczywiście te zakupy logowane są po stronie Stripe:
+!["Zakupione" produkty widoczne w Stripe](src/content/posts/_images/stripe_sandbox.png)
 
-### 3. **Używaj wielu reprezentacji**
+Oczywiście aplikacja sama w sobie jest w zasadzie "do wyrzucenia", a kod w wielu miejscach jest dziurawy i wyrzuca błędy. Podstawowe funkcjonalności jednak działają, a ja jestem w stanie prześledzić cały flow i zrozumieć w praktyce, do czego wykorzystuje się SDK (w tym przypadku SDK Stripe dla Pythona) - a to mi wystarczy. 
 
-* Przekładaj ideę z jednej formy na drugą: tekst → rysunek → metafora → równanie → opowieść.
-* Każda zmiana wymusza „prze-kodowanie” w głowie.
-* Przykład: „wzrost wykładniczy” → wykres → monety na stosie → rozprzestrzenianie się wirusa.
+### 3. **Pobaw się różnymi reprezentacjami danego pojęcia**
+Kolejnym krokiem "rozumienia intuicyjnego", jaki podrzucił mi ChatGPT jest próba "przełożenia" idei z jednej formy na drugą - np. rysunek, metafora, równanie czy opowieść. Każda zmiana wymusza „przekodowanie” pojęcia w głowie i daje kolejne możliwości na przyjrzenie się temu, co chcemy zrozumieć.
 
+Uwielbiam "wizualne metafory" różnych pojęć związanych z programowaniem czy designem tworzone przez [Maggie Appleton](https://maggieappleton.com/reactpotato). Wykorzystując mój Remarkable spróbowałam więc sama narysować, czym jest SDK. 
+
+![Moja "wizualizacja" SDK](src/content/posts/_images/remarkable_sdk.png)
+
+Z ciekawości zapytałam ChataGPT, jak zwizualizowałby SDK. Odpowiedział tak:
+!["Wizualizacja" SDK wykonana przez ChatGPT](src/content/posts/_images/sdk_lego_kit.png)
+
+Metafora "lego" przejawiała się w artykułach wyjaśniających SDK dość często, stąd nic dziwnego, że taki model mentalny się tutaj pojawił. 
+
+(swoją drogą, wszyscy "intuicyjnie" rozumiemy, czym jest lego, stąd rozumiemy też, kiedy pojęcie lego pojawia się w całkowicie innym kontekście. Chcę zrozumieć SDK na tyle, żeby umieć zrobić to samo - rozumieć czym jest na tyle, żeby spostrzec rzeczy, które przypominają SDK mimo, że nie mają nic wspólnego z programowaniem.)
 ---
 
 ### 4. **Kontrastuj z tym, czym to *nie jest***

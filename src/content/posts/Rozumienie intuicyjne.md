@@ -92,32 +92,22 @@ Kolejnym krokiem "rozumienia intuicyjnego", jaki podrzucił mi ChatGPT jest pró
 
 Uwielbiam "wizualne metafory" różnych pojęć związanych z programowaniem czy designem tworzone przez [Maggie Appleton](https://maggieappleton.com/reactpotato). Wykorzystując mój Remarkable spróbowałam więc sama narysować, czym jest SDK. 
 
-![Moja "wizualizacja" SDK](src/content/posts/_images/remarkable_sdk.png)
+![Moja "wizualizacja" SDK](src/content/posts/_images/remarkable_sdk.png){height=500px}
 
 Z ciekawości zapytałam ChataGPT, jak zwizualizowałby SDK. Odpowiedział tak:
 !["Wizualizacja" SDK wykonana przez ChatGPT](src/content/posts/_images/sdk_lego_kit.png)
 
 Metafora "lego" przejawiała się w artykułach wyjaśniających SDK dość często, stąd nic dziwnego, że taki model mentalny się tutaj pojawił. 
 
-(swoją drogą, wszyscy "intuicyjnie" rozumiemy, czym jest lego, stąd rozumiemy też, kiedy pojęcie lego pojawia się w całkowicie innym kontekście. Chcę zrozumieć SDK na tyle, żeby umieć zrobić to samo - rozumieć czym jest na tyle, żeby spostrzec rzeczy, które przypominają SDK mimo, że nie mają nic wspólnego z programowaniem.)
+Swoją drogą, wszyscy "intuicyjnie" rozumiemy, czym jest lego, stąd rozumiemy też, kiedy pojęcie lego pojawia się w całkowicie innym kontekście. Chcę zrozumieć SDK na tyle, żeby umieć zrobić to samo - rozumieć czym jest na tyle, żeby spostrzec rzeczy, które przypominają SDK mimo, że nie mają nic wspólnego z programowaniem.
 ---
 
-### 4. **Kontrastuj z tym, czym to *nie jest***
+### 4. **Zrozum, czym dane pojęcie _nie jest_ i jak różni się od innych, podobnych pojęć**
 
 * Określ granice pojęcia przez porównanie do podobnych, ale innych rzeczy.
 * Przykład: żeby intuicyjnie zrozumieć rekurencję, zestaw ją z iteracją – to samo rozwiązanie, ale inny model mentalny.
 
 Framework, biblioteka, API,...
-
----
-
-### 5. **Dziel i łącz**
-
-* Rozbij temat na małe kawałki.
-* Potem łącz je z tym, co już znasz („kotwice”).
-* Przykład: żeby ogarnąć Kubernetes, porównaj go do magazynu pełnego kontenerów.
-
----
 
 ### 6. **Spróbuj nauczyć kogoś innego**
 

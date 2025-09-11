@@ -1,6 +1,8 @@
 ---
 import ThemeToggleIcon from '@/assets/icons/theme-toggle.svg'
 import { themeConfig } from '@/config'
+import { getLangFromPath, getNextGlobalLang } from '@/i18n/lang'
+import { getLanguageSwitchPath } from '@/i18n/path'
 
 interface Props {
   supportedLangs?: string[]
@@ -8,6 +10,11 @@ interface Props {
 
 const { light: { background: lightMode }, dark: { background: darkMode } } = themeConfig.color
 const reduceMotion = themeConfig.global.reduceMotion
+
+// Get current language and next language
+const currentLang = getLangFromPath(Astro.url.pathname)
+const nextLang = getNextGlobalLang(currentLang)
+const switchPath = getLanguageSwitchPath(Astro.url.pathname, nextLang)
 ---
 
 <div
@@ -17,6 +24,15 @@ const reduceMotion = themeConfig.global.reduceMotion
   'lg:(fixed bottom-47 right-[max(5rem,calc(50vw-35rem))] top-auto w-14rem)',
 ]}
 >
+  <!-- Language Toggle -->
+  <a
+    href={switchPath}
+    aria-label={`Currently viewing in ${currentLang === 'en' ? 'English' : 'Polish'}, click to switch to ${nextLang === 'en' ? 'English' : 'Polish'}`}
+    class="flex items-center justify-center w-4 h-4 c-secondary active:scale-90 hover:c-primary font-medium text-xs uppercase"
+  >
+    {currentLang}
+  </a>
+
   <!-- Theme Toggle -->
   <button
     id="theme-toggle-button"

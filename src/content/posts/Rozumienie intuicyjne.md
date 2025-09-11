@@ -9,33 +9,33 @@ abbrlink: jak-zrozumiec-cos-intuicyjnie
 status: 🌱
 ---
 
-W swojej pracy bardzo często staję przed koniecznością nauczenia się nowych rzeczy czy zrozumienia nowych terminów. 
+W swojej pracy nieustannie trafiam na nowe tematy i pojęcia, które muszę sobie przyswoić.
 
-Czasami są to rzeczy, które muszę zrozumieć w konkretnym celu - potrzebuję jakiejś wiedzy, żeby wykonać jakieś zadanie. Często zdarza się, że ta wiedza nie będzie mi potrzebna ponownie w najbliższej przyszłości. W takich sytuacjach, kiedy liczy się czas, a stawką po prostu "dowiezienie" zadania, często wystarczy mi powierzchowne zrozumienie tematu - uczę się tyle, ile w danym momencie jest mi potrzebne i nic więcej.
+Bywa, że chodzi tylko o szybkie zdobycie wiedzy potrzebnej do wykonania konkretnego zadania. W takich chwilach nie buduję głębokiej kompetencji - wystarcza mi minimum, które pozwala ruszyć dalej. Wiem, że w najbliższym czasie do tej wiedzy już nie wrócę, więc uczę się tyle, ile trzeba - i ani odrobinę więcej.
 
-Są jednak takie tematy, które chcę opanować po to, aby stać się _**naprawdę dobra**_ w tym, co robię. W takim przypadku nie optymalizuję strategii nauki pod czas/możliwość wykonania danego zadania, a dążę do zrozumienia czegoś _intuicyjnie_.
+Są jednak obszary, w których stawka jest inna. Chcę w nich nie tylko „radzić sobie”, ale stać się _**naprawdę dobra**_ w tym, co robię, a wtedy nie wystarcza szybka optymalizacja pod bieżący cel. Szukam zrozumienia, które będzie _intuicyjne_, naturalnie obecne w moim sposobie myślenia i działania.
 
-Żyjemy w ekscytujących czasach dla ludzi, którzy lubią uczyć się na własną rękę - LLMy potrafią cierpliwie i przez długi czas tłumaczyć nam wszystko to, z czym jeszcze czujemy się niepewnie. W takim kontekście wiedza o tym, _jak_ się uczyć staje się jeszcze istotniejsza niż kiedyś. 
+Żyjemy w ekscytujących czasach dla ludzi, którzy lubią uczyć się na własną rękę. Modele językowe potrafią cierpliwie i wyczerpująco tłumaczyć wszystko to, z czym jeszcze czujemy się niepewnie. W świecie, gdzie dostęp do wiedzy nigdy nie był łatwiejszy, kluczowe staje się pytanie: _jak_ uczyć się tak, by ta wiedza naprawdę zapuściła korzenie?
 
-Chciałabym, aby ten post był pomocny mnie samej jako "blueprint" procesu nauki intuicyjnej - tak, abym mogła wziąć książkę, odpalić ChatGPT i strategicznie wykonywać takie ruchy, żeby to zrozumienie intuicyjne efektywnie zbudować. 
-
+Dlatego traktuję ten post jako swój „blueprint” nauki intuicyjnej – mapę, która pomoże mi wziąć książkę, otworzyć ChatGPT i świadomie, strategicznie stawiać kolejne kroki, aż zrozumienie zacznie układać się w spójną całość.
 
 ## Czym jest rozumienie intuicyjne?
-Myślę, że „rozumienie” ma różne poziomy:
-* **Płytkie** – jest wtedy, kiedy umiem powtórzyć definicję czegoś i rozpoznaję coś, czego wcześniej nie rozpoznawałam. Jest wtedy, kiedy trafienie na dany koncept w świecie mnie nie zaskakuje, wiem mniej-więcej jak to coś działa, ale na "biernym" poziomie (to znaczy, sama nie do końca potrafiłabym odtworzyć definicję danej rzeczy czy wytłumaczyć jej użycie w jakimś kontekście). Kiedy rozumiem coś w płytki sposób, muszę sobie aktywnie przypominać, jak to coś działa.
-* **Głębokie** – jest wtedy, kiedy potrafię coś zastosować w praktyce, rozumiem schemat wejścia i wyjścia danego procesu i umiem zrozumieć relację danego konceptu do innych. Potrafię samodzielnie podać poprawną definicję danego zjawiska i jestem pewna swojej odpowiedzi.
-* **Intuicyjne** – jest wtedy, kiedy *czuję*, jak coś działa, nawet bez wzorów i instrukcji. Jest wtedy, kiedy potrafię zobaczyć różne rodzaje "ekspresji" tej rzeczy w świecie i jestem w stanie samodzielnie zastosować ten koncept czy wzór w wielu różnych domenach.
 
-Chcę zrozumieć proces budowania takiego rozumienia intuicyjnego - tak, aby za każdym razem, kiedy muszę coś zrozumieć właśnie w taki sposób wiedzieć krok po kroku jak się za to zabrać. 
+Możemy rozumieć jakiś termin na różne sposoby:
+- **Rozumienie płytkie** – potrafię powtórzyć definicję i rozpoznać zjawisko. Kontakt z tym pojęciem mnie nie zaskakuje; mniej więcej wiem, jak działa, ale biernie – nie umiem swobodnie odtworzyć definicji ani wyjaśnić użycia w kontekście. Muszę sobie aktywnie przypominać mechanizm.
+- **Rozumienie głębokie** – umiem zastosować w praktyce. Widzę schemat wejść i wyjść, rozumiem powiązania z innymi pojęciami, potrafię samodzielnie sformułować poprawną definicję i jestem jej pewna.
+- **Rozumienie intuicyjnie** – czuję, jak to działa, nawet bez wzorów i instrukcji. Rozpoznaję różne formy „ekspresji” tego zjawiska w świecie i potrafię przenosić koncept między domenami, stosując go w nowych sytuacjach.
+
+Chcę rozpracować proces dochodzenia do poziomu rozumienia intuicyjnego , tak by za każdym razem wiedzieć, jak krok po kroku się za to zabrać.
 
 Full disclosure - rozważania nad tym tematem (_co to znaczy rozumieć coś intuicyjnie?_) prowadziłam razem z ChatemGPT - poniższe etapy to wynik naszych wspólnych dyskusji nad tym, jak krok po kroku takie rozumienie budować.
 
-Żeby operować na konkretnym przykładzie, przejdźmy przez rzeczywistą sytuację z wczoraj, kiedy próbowałam zrozumieć, czym jest SDK (software development kit).
+Żeby oprzeć się na czymś konkretnym, wezmę świeży przykład z wczoraj: próbę zrozumienia, czym jest SDK (software development kit).
 
 ## Budowanie rozumienia intuicyjnego
 
 ### 0. **Definicja**
-Na początku wypada zapoznać się z definicją danego terminu. Według [Wikipedii](https://pl.wikipedia.org/wiki/Software_development_kit) _SDK to zestaw narzędzi dla programistów niezbędny w tworzeniu aplikacji korzystających z funkcjonalności danej biblioteki (np. Java Runtime Environment) pod daną platformę (np. system operacyjny Android), sprzęt (np. moduł GPS) itp._
+Na początek warto sięgnąć po definicję. Według [Wikipedii](https://pl.wikipedia.org/wiki/Software_development_kit) _SDK to zestaw narzędzi dla programistów niezbędny w tworzeniu aplikacji korzystających z funkcjonalności danej biblioteki (np. Java Runtime Environment) pod daną platformę (np. system operacyjny Android), sprzęt (np. moduł GPS) itp._
 
 _Na SDK najczęściej składają się:_
 - _dokumentacja_
@@ -44,30 +44,28 @@ _Na SDK najczęściej składają się:_
 - _skompilowane biblioteki (w przypadku SDK dla jakiejś biblioteki)_
 - _kod źródłowy biblioteki (w zależności od licencji i typu SDK)_
 
-Myślę, że dobrze byłoby już wtedy  spróbować też sparafrazować tę definicję własnymi słowami. 
+Już na tym etapie dobrze jest spróbować sparafrazować tę definicję własnymi słowami.
 
-Na ten moment rozumiem, że SDK to pewna warstwa abstrakcji pozwalająca programistom w prostszy i czytelniejszy sposób tworzyć funkcjonalności _osadzone w pewnym kontekście_ (i być może tym SDK różni się od "zwykłej" biblioteki. 
+Moje obecne rozumienie jest takie: _SDK to warstwa abstrakcji, która pozwala programistom szybciej i czytelniej tworzyć funkcjonalności **osadzone w konkretnym kontekście**_. Być może właśnie tym różni się od zwykłej biblioteki. Biblioteki są z reguły agnostyczne wobec środowiska, natomiast SDK wydaje się łączyć logikę różnych komponentów w jedną całość, przypisaną do określonego systemu operacyjnego czy sprzętu.
 
-Biblioteki są raczej agnostyczne, jeżeli chodzi o nośnik, a SDK wydaje się być połączeniem logiki różnych komponentów w abstrakcję osadzoną w jakimś konkretnym kontekście, np. OS czy sprzęt). 
-
-Fair enough, chociaż nie jestem jeszcze pewna, czy to rzeczywiście dobra definicja.
+Brzmi sensownie – choć wciąż nie mam pewności, czy to trafne ujęcie.
 
 ### 1. **Ekspozycja**
 Kolejnym krokiem budowania rozumienia intuicyjnego wydaje się być zwiększenie własnej _ekspozycji_ na dany termin. 
 
-Chodzi o to, aby zobaczyć przykłady ekspresji danego terminu z życia - to znaczy różne narzędzia czy zjawiska spełniające podaną wcześniej definicję itd. Intuicja rośnie po zobaczeniu *wielu instancji* danej definicji w rzeczywistości.
+Chodzi o to, by zobaczyć, jak dana definicja „żyje” w praktyce – czyli jakie narzędzia czy zjawiska faktycznie spełniają jej kryteria. Intuicja rozwija się wtedy, gdy możemy obejrzeć _wiele instancji_ tego samego pojęcia w rzeczywistości.
 
-Szukam więc przykładów - a przykładami SDK są m.in.:
+Przykładami SDK są m.in.:
 - [Google Cloud SDK](https://cloud.google.com/sdk) - narzędzia i biblioteki do obsługi GCP
 - [Stripe SDK](https://docs.stripe.com/sdks) - narzędzia do dodawania płatności w aplikacji
 - [Android](https://www.twilio.com/docs/libraries) - narzędzia do dodawanie SMS-ów, połączeń głosowych, WhatsApp etc. do aplikacji.
 
-Celowo staram się wybierać takie przykłady, które są najbliżej mojego "mentalnego rusztowania" i są dla mnie już w jakiś sposób znajome. Mam np. więcej doświadczenia z GCP niż np. z Androidem, stąd ten konkretny przykład bardziej do mnie przemawia. 
+Celowo wybieram przykłady najbliższe mojemu „mentalnemu rusztowaniu” – takie, z którymi już mam jakieś doświadczenie. Mam np. więcej doświadczenia z GCP niż np. z Androidem, stąd ten konkretny przykład bardziej do mnie przemawia. 
 
-Przeglądając dokumentacje podanych przykładów zauważam, że:
-1. SDK to nie jest jednolity twór - w zasadzie są do _SDKs_ do róznych kontekstów (np. `Google Cloud SDK for Go` vs. `Google Cloud SDK for Python` itd.)
-2. Moje początkowe założenie (SDK = biblioteki/narzędzia + kontekst) wydaje się być poprawne - wszystkie przykłady, które znalazłam, mają taki sam model (X - zestaw narzędzi - dla Y - kontekst). Kontekstem są platformy, ale też różne języki, np. Go czy Python. 
-3. "Narzędzia" w tym zestawie narzędzi to często API danego serwisu, ale również biblioteki, narzędzia developerskie (np. debugger czy emulator), dokumentacja (!) a czasem też gotowe pluginy czy szablony projektów.
+Przeglądając dokumentację, zauważam kilka rzeczy:
+1. SDK nie jest jednolitym bytem – istnieją różne warianty pod konkretne konteksty, np. `Google Cloud SDK for Go` czy `Google Cloud SDK for Python`.
+2. Moje początkowe przypuszczenie (`SDK = biblioteki/narzędzia + kontekst`) zdaje się trafne. Każdy przykład ma podobny wzór: „X – zestaw narzędzi – dla Y – kontekst”. Kontekstem może być zarówno platforma (OS, sprzęt), jak i język programowania.
+3. „Narzędzia” w SDK to często API danego serwisu, ale też biblioteki, środowiska developerskie (np. debugger, emulator), dokumentacja, a czasem nawet gotowe pluginy czy szablony projektów.
 
 ### 2. **Zabawa**
 Żeby dobrze coś zrozumieć, trzeba przenieść to ze sfery teoretyczno-językowej do rzeczywistości. Skoro znam już definicję i konkretne przykłady "materializacji" danego pojęcia w realnym świecie mogę spróbować się którymś z tych przykładów pobawić - tak, aby zbudować "pamięć mięśniową" zastosowania tej rzeczy w praktyce, pooglądać tę rzecz z różnych stron i w niej podłubać.
@@ -92,7 +90,7 @@ I mogłam zobaczyć, że rzeczywiście te zakupy logowane są po stronie Stripe:
 
 !["Zakupione" produkty widoczne w Stripe](src/content/posts/_images/stripe_sandbox.png)
 
-Oczywiście aplikacja sama w sobie jest w zasadzie "do wyrzucenia", a kod w wielu miejscach jest dziurawy i wyrzuca błędy. Podstawowe funkcjonalności jednak działają, a ja jestem w stanie prześledzić cały flow i zrozumieć w praktyce, do czego wykorzystuje się SDK (w tym przypadku SDK Stripe dla Pythona) - a to mi wystarczy. 
+Oczywiście aplikacja sama w sobie jest w zasadzie "do wyrzucenia", a kod w wielu miejscach jest dziurawy i wyrzuca błędy. Podstawowe funkcjonalności jednak działają, a ja jestem w stanie prześledzić cały flow i zrozumieć w praktyce, do czego wykorzystuje się SDK (w tym przypadku Stripe SDK dla Pythona) - a to mi wystarczy. 
 
 ### 3. **Reprezentacje**
 Kolejnym krokiem "rozumienia intuicyjnego", jaki podrzucił mi ChatGPT jest próba "przełożenia" idei z jednej formy na drugą - np. rysunek, metafora, równanie czy opowieść. Każda zmiana wymusza „przekodowanie” pojęcia w głowie i daje kolejne możliwości na przyjrzenie się temu, co chcemy zrozumieć.
@@ -107,7 +105,7 @@ Z ciekawości zapytałam ChataGPT, jak zwizualizowałby SDK. Odpowiedział tak:
 
 Metafora "lego" przejawiała się w artykułach wyjaśniających SDK dość często, stąd nic dziwnego, że taki model mentalny się tutaj pojawił. 
 
-Swoją drogą, wszyscy "intuicyjnie" rozumiemy, czym jest lego, stąd rozumiemy też, kiedy pojęcie lego pojawia się w całkowicie innym kontekście. Chcę zrozumieć SDK na tyle, żeby umieć zrobić to samo - rozumieć czym jest na tyle, żeby spostrzec rzeczy, które przypominają SDK mimo, że nie mają nic wspólnego z programowaniem.
+Swoją drogą, wszyscy "intuicyjnie" rozumiemy, czym jest lego, dlatego tak łatwo przenosimy to pojęcie na inne konteksty. Moim celem jest dojść do takiego samego poziomu zrozumienia SDK: rozumieć je na tyle dobrze, by dostrzegać „SDK-owatość” nawet w zjawiskach, które z programowaniem nie mają absolutnie nic wspólnego.
 
 Spróbowałam też pobawić się Sorą i wygenerować wideo-wizualizację tego, czym jest SDK. Po kilku próbach, które wygenerowały, uhm... dość [dziwne](https://sora.chatgpt.com/g/gen_01k4tmt6w3ekktmbnwrshn6zwt) rezultaty, w końcu siadł mi taki prompt:
 > _Please visualize what an SDK is. Don't include any people or text in the video, but rather create an imaginary visual, artistic representation of what an SDK is. It can be abstract, yet it should feel familiar to people intuitively understanding the concept._
@@ -125,23 +123,24 @@ W naszym przypadku chcemy zrozumieć, jak SDK różni się od innych, podobnych 
 - **API** to interfejs – zestaw zasad, nazw metod, struktur danych, które mówią Ci jak komunikować się z danym systemem. Nie jest rzeczą materialną jak plik .dll czy .so. API to raczej kontrakt: „jeśli wywołasz tę funkcję z takimi parametrami, dostaniesz taki wynik”. To jak menu w restauracji. API to spis dań i sposób zamawiania – mówi Ci: „żeby dostać pizzę, powiedz kelnerowi `orderPizza(size=large)`”. Samo menu nie gotuje pizzy, tylko mówi, co możesz dostać i jak o to poprosić.
 
 ### 5. **Szkolenie**
-[Metoda Feynmana](https://fs.blog/feynman-technique/) jest chyba znana wszystkim, którzy interesują się metanauką. Jej istotą jest "testowanie" własnego zrozumienia danego konceptu poprzez próbę wytłumaczenia (rzeczywistemu lub wyimaginowanemu) dwunastolatkowi, czym on jest, zidentyfikowania luk we własnym zrozumieniu, a następnie ich zapełnienia. 
+[Metoda Feynmana](https://fs.blog/feynman-technique/) jest chyba znana wszystkim, którzy interesują się metanauką. Jej istota sprowadza się do „testowania” własnego zrozumienia poprzez próbę wytłumaczenia danego konceptu dwunastolatkowi (rzeczywistemu lub wyimaginowanemu), wychwycenia luk i następnie ich uzupełnienia.
 
-Jeśli macie jakiegoś dwunastolatka pod ręką, posadźcie go proszę przed monitorem i dajcie mi znać, jak zareagował na następującą definicję:
+Więc jeśli macie gdzieś pod ręką dwunastolatka, posadźcie go przed monitorem i dajcie proszę znać, jak zareaguje na taką definicję:
 > _Wiesz, czym jest Facebook, prawda? (istnieje ryzyko, że polegnę już w tym miejscu, bo ponoć jest to już medium tylko dla boomerów). To teraz wyobraź sobie, że na swojej stronie internetowej chciałabym zaimplementować funkcjonalność, która pozwoli mi wyświetlać na niej kilka ostatnich postów z mojego profilu. Gdybym chciała to zrobić z wykorzystaniem "surowego" kodu, zajęłoby mi to dużo czasu i jest szansa, że zrobiłabym to w sposób, który spowoduje błędy. Na szczęście Facebook udostępnia [zestaw narzędzi](https://developers.facebook.com/docs/javascript/), który pozwala taką funkcjonalność zaimplementować dużo szybciej - takie gotowe "klocki", które pozwalają mi na to, że mogę w prosty sposób - za pomocą kilku, a nie kilkuset linii kodu - powiedzieć "hej Facebook, w tym miejscu mają być widoczne ostatnie posty z mojego profilu". Ponieważ Facebook wie lepiej, jak na różnego rodzaju platformach zaimplementować takie rozwiązanie, wykorzystując ich narzędzia mogę zminimalizować ryzyko, że coś pójdzie nie tak. Facebookowi jako platformie zależy, żeby jej użytkownicy budowali takie integracje, bo przyczynia się to do rozwoju popularności ich platformy - stąd decyzja o zbudowaniu, utrzymywaniu i udostępnianiu takich narzędzi. Te narzędzia - od konkretnej platformy, dla konkretnego kontekstu (np. języka programowania) to właśnie SDK._
 
 Naturalnie pojawia mi się kilka hipotez, które postaram się zweryfikować - na przykład czy sytuacja, którą przywołałam, jest rzeczywistym przykładem wykorzystania SDK Facebooka? Albo czy rzeczywiście taka motywacja stoi za tym, że platformy decydują sie na stworzenie i utrzymywanie SDK? 
 
-Każda z tych hipotez to rzecz do weryfikacji - a cały proces można oczywiście powtarzać kilkukrotnie, aż dojdzie się do wyjaśnienia, którego jest się pewnym w 100%.
+Każda z tych hipotez wymaga weryfikacji – i to w tym tkwi siła tej metody. Można ją powtarzać tyle razy, aż wreszcie dochodzi się do wyjaśnienia, którego jest się pewnym w 100%.
 
 ### 6. **Czas**
-Chociaż po całym tym procesie czuję, że rzeczywiście _intuicyjnie_ rozumiem, czym jest SDK, to zdaję sobie sprawę, że moje rozumienie może być w nieświadomy sposób ograniczone i mogę nie widzieć, czego jeszcze nie wiem. Intuicja to „wolne gotowanie”. Podświadomość potrzebuje powtórek i ekspozycji w czasie.
+Choć po tym całym procesie czuję, że _intuicyjnie_ rozumiem, czym jest SDK, mam też świadomość, że to rozumienie może być niepełne. Mogę nie dostrzegać obszarów, w których wciąż brakuje mi wiedzy. Intuicja to rodzaj „powolnego gotowania” – podświadomość potrzebuje czasu, powtórek i kolejnych ekspozycji, żeby utrwalić obraz całości.
 
-Mając już świadomość tego, czym jest SDK i jak działa będę na ten koncept wyczulona - będę zwracać uwagę na inne przykłady SDK, będę rozglądać się za innymi rzeczami, które przypominają SDK (nawet tymi niezwiązanymi z programowaniem), będę budować kolejne projekty, które różne SDK wykorzystują. Tak, aby z czasem budować coraz lepsze zrozumienie tego tematu.
+Dlatego teraz, znając już podstawy, będę bardziej wyczulona na ten koncept. Zwrócę uwagę na inne przykłady SDK, poszukam analogii w zjawiskach niezwiązanych z programowaniem, zbuduję kolejne projekty wykorzystujące różne zestawy narzędzi. W ten sposób krok po kroku będę pogłębiać i uszczelniać swoje rozumienie.
 
 ## Podsumowanie
 Ostatecznie uważam, że razem z AI udało mi się wypracować sensowny framework intuicyjnego rozumienia różnych tematów na własne potrzeby. 
 
-Mając cały proces rozpisany na kroki, będę go testować do przerabiania innych tematów (związanych i niezwiązanych z programowaniem) i dopracowywać. 
+Teraz, mając cały proces rozpisany na kroki, będę go testować na kolejnych zagadnieniach – zarówno związanych z programowaniem, jak i zupełnie od niego niezależnych – a przy okazji dopracowywać i udoskonalać.
 
 Ostatecznie dążę do tego, żeby stworzyć sobie własną "mentalną skrzynkę narzędziową" tak, aby uczyć się nowych tematów szybko i efektywnie - i chociaż AI nie jest w tym procesie konieczne, to jak widać może rzeczywiście wiele z tych etapów przyspieszyć.
+

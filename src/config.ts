@@ -143,8 +143,8 @@ export const themeConfig: ThemeConfig = {
         url: 'https://github.com/borsos-ilo',
       },
       {
-        name: 'Xitter',
-        url: 'https://x.com/borsos_ilo',
+        name: 'BlueSky',
+        url: 'https://bsky.app/profile/borsos-ilo.bsky.social',
       },
       {
         name: 'LinkedIn',

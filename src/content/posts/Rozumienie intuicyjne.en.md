@@ -1,9 +1,9 @@
 ---
 title: How to understand something intuitively?
-published: 2025-09-10T00:00:00Z
+published: 2025-09-10
 lang: en
 tags:
-    - metascience
+    - metalearning
     - ai
 abbrlink: jak-zrozumiec-cos-intuicyjnie
 status: 🌱

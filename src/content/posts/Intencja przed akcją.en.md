@@ -1,6 +1,6 @@
 ---
 title: Intention before action - my 2025 resolution and my attention stack
-published: 2025-01-04T00:00:00Z
+published: 2025-01-04
 lang: en
 tags:
     - digital minimalism

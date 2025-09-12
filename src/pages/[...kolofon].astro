@@ -1,15 +1,29 @@
 ---
 import { getCollection, render } from 'astro:content'
-import { defaultLocale } from '@/config'
+import { defaultLocale, allLocales } from '@/config'
 import Layout from '@/layouts/Layout.astro'
 
 export async function getStaticPaths() {
-  return [
-    {
-      params: { kolofon: 'kolofon/' },
-      props: { lang: defaultLocale },
+  const paths = []
+  
+  // Generate paths for all supported languages
+  for (const lang of allLocales) {
+    if (lang === defaultLocale) {
+      // Default language (Polish) - no prefix
+      paths.push({
+        params: { kolofon: 'kolofon/' },
+        props: { lang },
+      })
+    } else {
+      // Other languages - with prefix
+      paths.push({
+        params: { kolofon: `${lang}/kolofon/` },
+        props: { lang },
+      })
     }
-  ]
+  }
+  
+  return paths
 }
 
 const { lang } = Astro.props

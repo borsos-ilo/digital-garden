@@ -5,7 +5,7 @@ import Comments from '@/components/Comments/index.astro'
 import PostDate from '@/components/PostDate.astro'
 import BackButton from '@/components/Widgets/BackButton.astro'
 import TOC from '@/components/Widgets/TOC.astro'
-import { defaultLocale } from '@/config'
+import { defaultLocale, allLocales } from '@/config'
 import { getTagPath } from '@/i18n/path'
 import Layout from '@/layouts/Layout.astro'
 import { checkPostSlugDuplication } from '@/utils/content'
@@ -31,14 +31,29 @@ export async function getStaticPaths() {
     // Show drafts in dev mode only
     if (import.meta.env.DEV || !post.data.draft) {
       const slug = post.data.abbrlink || post.id
-      paths.push({
-        params: { posts_slug: `posts/${slug}/` },
-        props: {
-          post,
-          lang: defaultLocale,
-          supportedLangs: [defaultLocale],
-        },
-      })
+      const postLang = post.data.lang || defaultLocale
+      
+      if (postLang === defaultLocale) {
+        // Default language (Polish) - no prefix
+        paths.push({
+          params: { posts_slug: `posts/${slug}/` },
+          props: {
+            post,
+            lang: postLang,
+            supportedLangs: allLocales,
+          },
+        })
+      } else {
+        // Other languages - with prefix
+        paths.push({
+          params: { posts_slug: `${postLang}/posts/${slug}/` },
+          props: {
+            post,
+            lang: postLang,
+            supportedLangs: allLocales,
+          },
+        })
+      }
     }
   })
 

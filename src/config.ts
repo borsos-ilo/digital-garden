@@ -53,7 +53,7 @@ export const themeConfig: ThemeConfig = {
     locale: 'pl', // zh, zh-tw, ja, en, es, ru, pt
     // more languages
     // not fill in the locale code above again, can be an empty array []
-    moreLocales: [], // ['zh', 'zh-tw', 'ja', 'en', 'es', 'ru', 'pt']
+    moreLocales: ['en'], // ['zh', 'zh-tw', 'ja', 'en', 'es', 'ru', 'pt']
     // font styles for post text
     fontStyle: 'sans', // sans, serif
     // date format for posts

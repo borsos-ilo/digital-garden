@@ -18,4 +18,4 @@ I have the favicon thanks to [Freepik](https://www.freepik.com/icon/sunflower_74
 
 Since I'm a mediocre programmer, I use [Cline](https://cline.bot/) to help me throughout the entire process.
 
-The site is entirely static - hosted on [Vercel](https://vercel.com/), in the process of moving to [Cloudflare Pages](https://pages.cloudflare.com), as soon as I also move the domain there from [home.pl](https://home.pl)
+The site is entirely static - hosted on [Vercel](https://vercel.com/).

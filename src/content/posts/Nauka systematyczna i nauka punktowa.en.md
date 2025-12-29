@@ -8,22 +8,6 @@ tags:
     - metalearning
 ---
 
-Oczywiście, to bardzo ciekawy tekst o modelach mentalnych w edukacji. Przygotowałem tłumaczenie, które zachowuje Twój osobisty styl, a jednocześnie używa naturalnie brzmiącej angielskiej terminologii biznesowej i edukacyjnej.
-
-Dla pojęcia "nauka punktowa" użyłem określenia "Point Learning", ale w literaturze angielskiej bliskim odpowiednikiem jest również "Just-in-Time Learning" (nauka dokładnie tego, co jest potrzebne w danej chwili) – warto o tym pamiętać przy dalszych poszukiwaniach (punkt 2 w sekcji "Do przemyślenia").
-
-Markdown
-
----
-title: Systematic Learning and Point Learning
-published: 2024-10-02
-lang: en
-abbrlink: systematic-and-point-learning
-tags:
-    - mental models
-    - metascience
----
-
 ## TL;DR
 
 Effective learning requires a conscious choice between a systematic and a point-based approach, depending on the goal and context. This allows for more efficient knowledge acquisition and the responsible application of that knowledge in practice.
